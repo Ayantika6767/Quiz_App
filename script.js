@@ -5,7 +5,7 @@ const quizData = [
     b: "C",
     c: "Python",
     d: "Javascript",
-    correct: "d"
+    correct: "d",
   },
   {
     question: "Which language is used in Data Science field ?",
@@ -13,7 +13,7 @@ const quizData = [
     b: "C",
     c: "Python",
     d: "Javascript",
-    correct: "c"
+    correct: "c",
   },
   {
     question:
@@ -22,7 +22,7 @@ const quizData = [
     b: "C",
     c: "Python",
     d: "Javascript",
-    correct: "d"
+    correct: "d",
   },
   {
     question: "What is the most used programing language in banking sector ?",
@@ -30,8 +30,8 @@ const quizData = [
     b: "C",
     c: "Python",
     d: "Javascript",
-    correct: "b"
-  }
+    correct: "b",
+  },
 ];
 
 const quiz = document.getElementById("quiz");
