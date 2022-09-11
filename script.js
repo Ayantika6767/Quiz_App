@@ -1,40 +1,40 @@
+const quizData = [
+  {
+    question: "What is the most used programing language in 2022?",
+    a: "Java",
+    b: "C",
+    c: "Python",
+    d: "Javascript",
+    correct: "d"
+  },
+  {
+    question: "Which language is used in Data Science field ?",
+    a: "Java",
+    b: "C",
+    c: "Python",
+    d: "Javascript",
+    correct: "c"
+  },
+  {
+    question:
+      "What is the most used programing language for Front-End Development ?",
+    a: "Java",
+    b: "C",
+    c: "Python",
+    d: "Javascript",
+    correct: "d"
+  },
+  {
+    question: "What is the most used programing language in banking sector ?",
+    a: "Java",
+    b: "C",
+    c: "Python",
+    d: "Javascript",
+    correct: "b"
+  }
+];
 
-const quizData=[
-  {
-    question:"What is the most used programming language in 2022?",
-    a:"Java",
-    b:"C",
-    c:"Python",
-    d:"Java Script",
-    correct:"d",
-  },
-  {
-    question:"Which city is known as Pink City?",
-    a:"Udaipur",
-    b:"Jaipur",
-    c:"Jodhpur",
-    d:"Jaisalmer",
-    correct:"b",
-  },
-  {
-    question:"How many days do we have in a week?",
-    a:"Seven",
-    b:"Six",
-    c:"Five",
-    d:"Four",
-    correct:"a",
-  },
-  {
-    question:"Which animal is known as the Ship of the Desert?",
-    a:"Lion",
-    b:"Rabbit",
-    c:"Camel",
-    d:"Horse",
-    correct:"c",
-  },
-  ];
-  
-  const quiz = document.getElementById("quiz");
+const quiz = document.getElementById("quiz");
 const answerEls = document.querySelectorAll(".answer");
 const questionEl = document.getElementById("question");
 const a_text = document.getElementById("a_text");
